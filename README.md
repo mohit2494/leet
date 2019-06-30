@@ -1,2 +1,2 @@
 # leet
-repo for my leetcode practice
+repository with solved problems of leetcode in java, c++ and python.
