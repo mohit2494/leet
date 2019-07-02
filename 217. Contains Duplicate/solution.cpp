@@ -28,7 +28,7 @@ class Solution {
 		bool containsDuplicate(vector<int> &nums) {
 			// learn more about std::sort here - https://www.geeksforgeeks.org/sort-c-stl/
 			sort(nums.begin(), nums.end());
-			// read more about unique here - https://www.geeksforgeeks.org/stdunique-in-cpp/`
+			// read more about unique here - https://www.geeksforgeeks.org/stdunique-in-cpp/
 			return unique(nums.begin(), nums.end()) != nums.end();
 		}
 };
